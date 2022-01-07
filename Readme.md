@@ -13,5 +13,5 @@ python -m mf_data_ingestion_df \
 
 #### Running in local
 ```
-python -m mf_data_ingestion_df --project <project-id>
+python -m mf_data_ingestion_df --project <project-id> --inclusive_start_date <"%d-%m-%Y"> --dataset <dataset-id>
 ```

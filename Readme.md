@@ -10,3 +10,8 @@ python -m mf_data_ingestion_df \
 --region asia-south1 \
 --setup_file=$(pwd)/setup.py
 ```
+
+#### Running in local
+```
+python -m mf_data_ingestion_df --project <project-id>
+```
